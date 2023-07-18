@@ -1,14 +1,15 @@
-# translate-io
+# translate-io Forked to deepgram-java
 A language translation project <br/>
 
-This is a spring shell project offering deepgram speech to text translation <br/>
+This is a spring shell project offering deepgram speech to text transcription <br/>
 
 mvn spring-boot:run <br/>
 
 shell command <br/>
 
 <pre>
-sptt {mins} {seconds} {language(Optional)}- This will start recording audio for n minutes and then the whole audio will transcribed and shown in the notepad : Windows
-stop-sptt {id} - Will stop recording and translation. 
-translate-file {filepath} {language(Optional)} - Ex translate-file recordings/record.wav will translate the file to english and show you the transcription 
+sptt
 </pre>
+
+
+You can view the latest changed under mbadr-deepgram branch. Currently The audio links are hardcoded as well as the language and model
