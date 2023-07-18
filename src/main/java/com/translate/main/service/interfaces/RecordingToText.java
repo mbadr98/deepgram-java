@@ -1,5 +1,6 @@
 package com.translate.main.service.interfaces;
 
+
 import java.io.FileNotFoundException;
 
 public interface RecordingToText {
